@@ -1,0 +1,15 @@
+# Ignore target directories for all projects
+**/target/
+
+# Ignore Cargo.lock files for all projects
+**/Cargo.lock
+
+# Ignore IDE/editor specific files
+**/.idea/
+**/.vscode/
+**/.rls/
+**/.cargo/
+
+# Ignore other common files
+**/debug/
+**/cache/

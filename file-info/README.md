@@ -33,60 +33,6 @@ File Analyzer is a simple Rust command-line application that reads a text file a
 
 ## Usage
 
-To use the File Analyzer, run the executable and provide the path to the text file you want to analyze as an argument.
-
-```sh
-cargo run --release <file>
-```
-
-Example:
-
-```sh
-cargo run --release sample.txt
-```
-
-### Output
-
-The output will display the following information:
-
-- Number of lines in the file.
-- Number of characters in the file.
-- Number of words in the file.
-- Number of unique words in the file.
-- The 5 most frequent words in the file and their frequencies.
-
-### Example Output
-
-```
-Number of lines: 42
-Number of characters: 1234
-Number of words: 245
-Number of unique words: 123
-
-Most frequent words:
-the: 15
-and: 12
-to: 10
-of: 8
-a: 7
-```
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-### Usage Guide
-
 Here is a step-by-step usage guide for running your Rust application:
 
 1. **Ensure Rust is Installed**: Make sure you have Rust installed on your system. If not, install it from the official Rust website.

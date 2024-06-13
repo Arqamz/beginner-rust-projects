@@ -4,6 +4,9 @@
 # Ignore Cargo.lock files for all projects
 **/Cargo.lock
 
+# Ignore .txt files for all projects
+**/src/*.txt
+
 # Ignore IDE/editor specific files
 **/.idea/
 **/.vscode/
